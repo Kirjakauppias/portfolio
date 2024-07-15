@@ -1,0 +1,133 @@
+body {
+    color: #6c757d;
+}
+
+h1 {
+    
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    color: #343a40;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+#sideNav {
+    padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh;
+}
+#sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+}
+
+#sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+#sideNav .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+}
+
+}
+#sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+#sideNav a.navbar-brand {
+    margin-bottom: 20px;
+}
+#sideNav .navbar-item {
+    width: 100%;
+}
+#sideNav .nav-link {
+    color: #ffffff; /* White text */
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase; /*Linkin tekstit kaikki isolla */
+}
+#sideNav .nav-link:hover {
+    background-color: #0056b3; /* Bootstrap darken primary color */
+}
+
+.container-fluid {
+  justify-content: center;
+}
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+    min-height: 100vh;
+  }
+
+section.resume-section .resume-section-content {
+    width: 100%;
+}
+
+  .subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }
+
+  .social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+    text-transform:none;
+    margin-top: 2rem;
+}
+
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
