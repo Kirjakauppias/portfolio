@@ -1,14 +1,13 @@
-@media (min-width: 1200px) {
-    h1, .h1 {
-        font-size: 6rem;
-    }
-}
-
 @media (min-width: 992px) {
     body {
         padding-top: 0;
         padding-left: 17rem;
     }
+
+    h1, .h1 {
+        font-size: 5rem !important;
+    }
+
     #sideNav {
         padding-left: 0;
         padding-right: 0;
@@ -58,6 +57,7 @@
 body {
     color: #6c757d;
 }
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     text-transform: uppercase;
 }
@@ -68,8 +68,16 @@ h1, .h1 {
 
 h1, .h1{
     font-family: "Marcellus", serif;
-    font-weight: 700;
+    font-weight: 700 !important;
     color: #343a40;
+}
+
+.navbar {
+    background-color:rgb(110, 17, 106) !important;
+}
+
+.text-lastname {
+    color: rgb(110, 17, 106) !important;
 }
 
 #sideNav .navbar-brand .img-profile {
