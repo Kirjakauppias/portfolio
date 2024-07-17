@@ -80,6 +80,13 @@ h1, .h1{
     color: rgb(110, 17, 106) !important;
 }
 
+.subheading a {
+    color:rgb(110, 17, 106) !important;
+}
+
+.text-date {
+    color:rgb(110, 17, 106) !important;
+}
 #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
@@ -143,7 +150,7 @@ section.resume-section .resume-section-content {
     height: 3.5rem;
     width: 3.5rem;
     background-color: #495057;
-    color: #fff;
+    color: #fff !important;
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
