@@ -45,13 +45,13 @@
         padding-top: 2rem !important;
         padding-bottom: 5rem !important;
     }
-
-    .carousel-inner {
-        width: 50% !important;
-    }
-
+    
     .carousel {
         padding-top: 0 !important;
+    }
+
+    .carousel-inner {
+        width: 45% !important;
     }
 }
 
@@ -96,7 +96,7 @@ h1, .h1{
 }
 
 .carousel {
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 #sideNav .navbar-brand .img-profile {
