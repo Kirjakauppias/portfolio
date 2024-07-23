@@ -46,10 +46,13 @@
         padding-bottom: 5rem !important;
     }
 
-   .carousel-inner img {
-    height: 12rem;
-    width: 50rem;
-   }
+    .carousel-inner {
+        width: 50% !important;
+    }
+
+    .carousel {
+        padding-top: 0 !important;
+    }
 }
 
 @media (min-width: 768px) {
