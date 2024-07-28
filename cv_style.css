@@ -161,10 +161,6 @@ section.resume-section .resume-section-content {
     font-size: 1.5rem;
   }
 
-.mb-5 {
-    margin-bottom: 3rem !important;
-  }
-
   .social-icons .social-icon {
     display: inline-flex;
     align-items: center;
