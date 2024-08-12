@@ -192,3 +192,12 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     overflow: visible;
     vertical-align: -.125em;
 }
+
+.card {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-img-top {
+    height: 316px;
+}
