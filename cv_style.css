@@ -201,3 +201,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 .card-img-top {
     height: 316px;
 }
+
+.referee {
+    font-size: medium;
+}
