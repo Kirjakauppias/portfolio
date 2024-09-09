@@ -1,0 +1,38 @@
+/*IMAGES*/
+#image-rounded {
+    height: 300;
+    width: 300;
+    border-radius: 8px;
+}
+#image-circled {
+    height: 300;
+    width: 300;
+    border-radius: 50%;
+}
+.image-mask {
+    -webkit-mask-image: url(images/w3logo.png);
+    mask-image: url(images/w3logo.png);
+    mask-repeat: no-repeat;
+}
+
+/*Button*/
+.button-animated {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #04AA6D;
+    color: #fff;
+    padding: 15px 25px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+    outline: none;
+}
+.button-animated:hover {background-color: #3e8e41;}
+.button-animated:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
