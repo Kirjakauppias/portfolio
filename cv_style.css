@@ -89,7 +89,7 @@ h1, .h1{
     background-color:rgb(110, 17, 106) !important;
 }
 
-.text-lastname {
+.text-lastname, .text-primary {
     color: rgb(110, 17, 106) !important;
 }
 
